@@ -179,7 +179,7 @@ export class InvestmentsController {
     return this.investmentsService.getDailyInvestmentData(date);
   }
 
-  @ApiTags('Investment Details')
+  @ApiTags('Investment Callback Details')
   @ApiParam({
     name: 'id',
     example: '654cd09ebed634f242211d56',
